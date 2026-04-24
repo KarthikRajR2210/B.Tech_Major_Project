@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/cmd_interface.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/decoder.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/led_ctrl_top.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/output_control.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/pattern_fsm.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/pwm.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/ramp_counter.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/reg_file.v" \
+"../../../../BLE_led_ctrl.srcs/sources_1/new/timer_down.v" \
+"../../../../BLE_led_ctrl.srcs/sim_1/new/tb_led_ctrl.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

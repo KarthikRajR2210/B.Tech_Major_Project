@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+
+--- BLINK MODE ---
+
+--- PULSE MODE ---
+
+--- BREATHE MODE ---
+
+--- CORNER CASE: MID-RUN UPDATE ---
+
+ALL TESTS COMPLETED
+$finish called at time : 14445 ns : File "C:/FPGA_Exp/BLE_led_ctrl/BLE_led_ctrl.srcs/sim_1/new/tb_led_ctrl.v" Line 131
